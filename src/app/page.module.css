@@ -166,3 +166,7 @@ a.secondary {
     filter: invert();
   }
 }
+
+body{
+  background-color: #0052d0 !important;
+}
