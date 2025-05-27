@@ -49,7 +49,7 @@ export default function Home() {
     
     axios
       .get(
-        "https://api.openweathermap.org/data/2.5/weather?lat=34.4658&lon=36.0364&appid=ce2bd5542b833da01a799759d3139b93&units=metric",
+        "https://api.openweathermap.org/data/2.5/weather?lat=34.4658&lon=36.0364&appid={YOUR-ID}&units=metric",
         {
           signal: controller.signal,
         }
